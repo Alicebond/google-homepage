@@ -4,37 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google homepage</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a href="about.asp">About</a>
-      <a href="store.asp">Store</a>
-      <button class="sign-in" type="submit">Sign in</button>
-      <a class="right" href="gmail.asp">Gmail</a>
-      <a class="right" href="images.asp">Images</a>
+    <header class="header">
+      <ul class="left-side">
+        <li><a href="about.asp">About</a></li>
+        <li><a href="store.asp">Store</a></li>
+      </ul>
+      <ul class="right-side">
+        <li><a href="gmail.asp">Gmail</a></li>
+        <li><a href="images.asp">Images</a></li>
+        <button class="sign-in" type="submit">Sign in</button>
+      </ul>
     </header>
-    <section>
+
+    <div class="content">
       <img
         class="center"
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google logo"
       />
-    </section>
-    <section>
-      <input type="text" />
-    </section>
-    <section>
-      <button class="search">Google Search</button>
-      <button class="search">I'm Feeling Lucky</button>
-    </section>
-    <footer>
-      <a href="advertising.asp">Advertising</a>
-      <a href="business.asp">Business</a>
-      <a href="How Search Works.asp">How Search Works</a>
-      <a class="right" href="privacy.asp">Privacy</a>
-      <a class="right" href="terms.asp">Terms</a>
-      <a class="right" href="setting.asp">Setting</a>
+      <div class="text">
+        <input type="text" />
+      </div>
+      <div class="btn">
+        <button class="button">Google Search</button>
+        <button class="button">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <ul class="left-side">
+        <li><a href="advertising.asp">Advertising</a></li>
+        <li><a href="business.asp">Business</a></li>
+        <li><a href="How Search Works.asp">How Search Works</a></li>
+      </ul>
+      <ul class="right-side">
+        <li><a href="privacy.asp">Privacy</a></li>
+        <li><a href="terms.asp">Terms</a></li>
+        <li><a href="setting.asp">Setting</a></li>
+      </ul>
     </footer>
   </body>
 </html>
